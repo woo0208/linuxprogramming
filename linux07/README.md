@@ -4,4 +4,6 @@
 
 # 실습과제 2
 
-<img width="506" height="208" alt="image" src="https://github.com/user-attachments/assets/3e768562-49f0-49ef-9d89-24802345b8a3" />
+<img width="477" height="191" alt="image" src="https://github.com/user-attachments/assets/57a8cb3d-6f8d-49df-83f9-00b5205c3452" />
+
+
