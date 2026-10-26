@@ -1,4 +1,5 @@
-#ifndef _SUM_HPP_ #define _SUM_HPP_ 
+#ifndef _SUM_HPP_ 
+#define _SUM_HPP_ 
 
 class Adder {
     int a;
