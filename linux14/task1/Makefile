@@ -1,12 +1,18 @@
+
 CC = gcc
+CFLAGS = -g -Wall
+OBJS = main.o mylib.o
+TARGET = adder
 
-hello: hello.c
-	$(CC) -o hello hello.c
+$(TARGET): $(OBJS)
+	$(CC) $(CFLAGS) -o $(TARGET) $(OBJS)
 
-run: hello
-	./hello
+main.o: main.c mylib.h
+	$(CC) $(CFLAGS) -c main.c
 
+mylib.o: mylib.c mylib.h
+	$(CC) $(CFLAGS) -c mylib.c
+
+.PHONY: clean
 clean:
-	rm -f hello
-
-.PHONY: run clean
+	rm -f $(TARGET) $(OBJS)
